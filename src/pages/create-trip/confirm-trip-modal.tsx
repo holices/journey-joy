@@ -40,6 +40,7 @@ export function ConfirmTripModal({
               onChange={event => setOwnerName(event.target.value)}
             />
           </div>
+          
           <div className='h-14 px-4 bg-zinc-950 border border-zinc-800 rounded-lg flex items-center gap-2'>
             <AtSign className='size-5 text-zinc-400' />
             <input 
