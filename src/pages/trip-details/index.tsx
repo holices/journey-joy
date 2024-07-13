@@ -3,7 +3,7 @@ import { useState } from "react";
 import { CreateActivityModal } from "./create-activity-modal";
 import { ImportantLinks } from "./important-links";
 import { Guests } from "./guests";
-import { ActivityList } from "./activity-list";
+import { Activities } from "./activity-list";
 import { DestinationAndDateHeader } from "./destination-and-date-header";
 import { Button } from "../../components/button";
 
@@ -32,7 +32,7 @@ export function TripDetailsPage() {
             </Button>
           </div>
 
-          <ActivityList />
+          <Activities />
         </div>
 
         <div className="w-80 space-y-6">
